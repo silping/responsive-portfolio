@@ -1,8 +1,26 @@
-h1 {
+:root {
+  --primary-color: #1438f4;
+  --background-color: #c4c4c4;
+}
+
+body {
+  background-color: var(--background-color);
+}
+h1,
+h2,
+h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
 p {
   font-family: "Source Serif Pro", serif;
+}
+.hero {
+  text-align: center;
+  padding: 200px 200px 100px;
+  background-color: #fff;
+}
+.hero p {
+  margin-top: 42px;
 }
