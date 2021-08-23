@@ -1,6 +1,6 @@
 :root {
   --primary-color: #1438f4;
-  --background-color: #c4c4c4;
+  --background-color: #f4f4f4;
 }
 
 body {
@@ -22,5 +22,6 @@ p {
   background-color: #fff;
 }
 .hero p {
-  margin-top: 42px;
+  margin-top: 36px;
+  font-size: 22px;
 }
