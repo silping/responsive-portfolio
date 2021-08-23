@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #1438f4;
+  --primary-color: #c02e32;
+  --secondary-color: #421a30;
   --background-color: #f4f4f4;
 }
 
@@ -9,19 +10,27 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 p {
-  font-family: "Source Serif Pro", serif;
+  font-family: "PT Serif", serif;
+  font-weight: 400s;
+  font-size: 22px;
 }
 .hero {
   text-align: center;
-  padding: 200px 200px 100px;
-  background-color: #fff;
+  padding: 200px 200px 60px;
+  background-color: var(--primary-color);
 }
 .hero p {
-  margin-top: 36px;
-  font-size: 22px;
+  margin-top: 42px;
+  color: #e2d4bb;
+}
+.hero h1 {
+  color: var(--secondary-color);
+}
+.fa-chevron-down {
+  color: #e2d4bb;
 }
