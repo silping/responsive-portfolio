@@ -6,18 +6,26 @@
 
 body {
   background-color: var(--background-color);
+  margin: 0 auto;
 }
+
 h1,
 h2,
 h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
-
+h2 {
+  font-size: 16px;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
 p {
   font-family: "PT Serif", serif;
   font-weight: 400s;
-  font-size: 22px;
+  font-size: 16px;
 }
 .hero {
   text-align: center;
@@ -33,4 +41,10 @@ p {
 }
 .fa-chevron-down {
   color: #e2d4bb;
+}
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--primary-color);
 }
