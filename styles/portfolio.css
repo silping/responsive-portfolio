@@ -53,13 +53,44 @@ a {
 .fa-chevron-down {
   color: #e2d4bb;
 }
-
 .thumbnails {
   display: flex;
   flex-wrap: wrap;
-  background-color: var(--primary-color);
 }
 
+/* About page */
+
+.about-section {
+  background-color: #5c3865;
+  padding: 150px 200px 60px;
+}
+.about-section h1 {
+  color: #1b1e26;
+}
+.about-section p {
+  color: #1b1e26;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.about-section .cv-link {
+  color: #1b1e26;
+  font-family: "PT Serif", serif;
+  text-decoration: none;
+  padding: 0;
+  background-color: #5c3865;
+  line-height: 3;
+  margin-top: 30px;
+}
+.about-section .cv-link:hover {
+  color: #73d14e;
+}
+.about-section .email {
+  color: #1b1e26;
+  line-height: 2;
+}
+
+/* Media */
 @media (max-width: 900px) {
   .hero {
     padding: 60px 20px 20px;
