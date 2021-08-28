@@ -53,10 +53,6 @@ a {
 .fa-chevron-down {
   color: #e2d4bb;
 }
-.thumbnails {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 /* About page */
 
