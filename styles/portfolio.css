@@ -31,7 +31,7 @@ p {
 a {
   text-decoration: none;
   font-size: 14px;
-  padding: 10px 12px;
+  padding: 8px 10px;
   font-size: 12px;
 }
 
@@ -87,11 +87,16 @@ a {
 
 .home-content h2 {
   font-size: 14px;
-  color: #85929e;
+  color: #646f79;
 }
 
 nav {
   padding: 40px 60px;
+  margin-left: 20px;
+  margin-right; 20px;
+}
+nav h2 {
+  color: #1b1e26;
 }
 nav li {
   display: inline;
@@ -141,6 +146,10 @@ footer a:hover {
 footer .fa-chevron-up {
   color: #fff;
   font-size: 30px;
+}
+
+.work-header {
+  margin-top: 160px;
 }
 
 /* Media */
