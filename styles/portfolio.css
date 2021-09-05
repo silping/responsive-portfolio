@@ -48,12 +48,17 @@ a {
   padding: 100px 100px 30px;
   color: var(--secondary-color);
 }
-.fa-chevron-down {
-  color: #fff;
-  font-size: 30px;
+.hero h2 {
+font-weight: 400;
+color:#FF7F50;
 }
-
-/* About page */
+.hero span {
+  color: #FF7F50;
+}
+.content-container h2{
+font-weight: 400;
+font-size: 14px;
+}
 
 .about-section {
   background-color: #5c3865;
@@ -113,8 +118,8 @@ nav .active {
 }
 
 .contact-content {
-  margin-top: 200px;
-  margin-bottom: 240px;
+  margin-top: 130px;
+  margin-bottom: 20px;
 }
 .contact-content .social-links a {
   font-size: 42px;
@@ -149,7 +154,10 @@ footer .fa-chevron-up {
 }
 
 .work-header {
-  margin-top: 160px;
+  background-color: #d2fed4;
+  padding-top: 140px;
+  padding-bottom: 30px;
+  padding-left: 40px;
 }
 .work-header a {
   padding: 0;
