@@ -186,10 +186,34 @@ h2 {
 
 /* Media */
 @media (max-width: 900px) {
+  nav {
+    padding: 20px 10px 0;
+  }
+  nav .brand {
+    display: none;
+  }
+  footer .repository-link {
+    display: none;
+  }
+  footer .fa-chevron-up {
+    display: none;
+  }
   .hero {
-    padding: 60px 20px 20px;
+    padding: 20px 10px;
   }
   .hero h1 {
     text-align: center;
+    padding: 60px 10px 20px;
+  }
+  .contact-content {
+    padding: 100px 10px 30px;
+  }
+  .contact-content h1 {
+    text-align: center;
+  }
+  .work-link {
+    padding: 6px;
+    font-size: 12px;
+    border: 1px solid var(--dark-color);
   }
 }
